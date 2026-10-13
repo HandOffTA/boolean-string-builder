@@ -4,11 +4,11 @@
 
 ## What It Does
 
-Paste a job description and get ready-to-use search strings for LinkedIn, Google X-ray, and GitHub. No more building Boolean from scratch for every req.
+Paste a job description and get ready-to-use search strings for **LinkedIn (Boolean)**, **Google X-ray**, and **GitHub**. Every string comes with a short note on what it targets and how to tweak it.
 
 ## The Problem It Solves
 
-Writing good Boolean strings takes time and practice. Recruiters often reuse the same tired strings, miss relevant title variations and skills, or skip platforms like GitHub entirely. The result: thinner pipelines and slower sourcing.
+Writing good Boolean strings takes time and practice. Recruiters often reuse the same tired strings, miss relevant title variations and skills, or skip platforms like GitHub entirely. The result is thinner pipelines and slower sourcing.
 
 ## Who It's For
 
@@ -16,28 +16,25 @@ Sourcers, recruiters, and recruiting coordinators who source candidates directly
 
 ## How It Works
 
-1. **Paste the job description.** Drop in the full JD or just the key requirements.
-2. **Extract what matters.** The model pulls out core titles, alternate titles, must-have skills, nice-to-haves, and seniority signals.
-3. **Generate platform-specific strings.** It builds separate strings for LinkedIn (Boolean), Google X-ray (`site:` operators), and GitHub (language, location, and bio search).
-4. **Review and tweak.** Each string comes with a short note on what it targets, so you can tighten or broaden it fast.
+1. **Paste the job description.**
+2. **Extract what matters.** Core titles, alternate titles, must-have skills, nice-to-haves, location, seniority signals, and exclusions.
+3. **Generate platform-specific strings.** LinkedIn Boolean (tight and wide), Google X-ray (`site:` operators), and GitHub (user search qualifiers plus an X-ray fallback).
+4. **Review and tweak.** Each string notes what it targets so you can tighten or broaden fast.
+
+## How To Use It
+
+- **Claude Skill:** add `SKILL.md` to your Claude skills, then paste a job description and ask for search strings.
+- **Any AI chat:** paste the contents of `SKILL.md` as instructions, then paste your job description.
 
 ## Tools Used
 
-- Claude API, or
-- Claude Skill (run inside Claude / Claude Code)
+- Claude Skill (runs inside Claude / Claude Code), or Claude API
 
-## Screenshots
+## Status
 
-<!-- SCREENSHOT: add image here -->
+🟢 In active use
 
-_Screenshots coming soon._
-
-## Status / Notes
-
-🟡 **Status:** Placeholder. Update with the current state (e.g. *In active use*, *Demo available*, *In development*, *Being consolidated*).
-
-- Live link / demo: _add link here_
-- Last updated: _add date here_
+- Last updated: October 2026
 
 ---
 
